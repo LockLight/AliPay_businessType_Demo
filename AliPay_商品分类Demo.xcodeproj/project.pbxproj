@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD8587B01E22ADC300FB74BF /* LLBusinessTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8587AF1E22ADC300FB74BF /* LLBusinessTypeView.m */; };
 		CDC881121E210281001ADA51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC881111E210281001ADA51 /* main.m */; };
 		CDC881181E210281001ADA51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC881171E210281001ADA51 /* ViewController.m */; };
 		CDC8811B1E210281001ADA51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC881191E210281001ADA51 /* Main.storyboard */; };
@@ -32,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD8587AE1E22ADC300FB74BF /* LLBusinessTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBusinessTypeView.h; sourceTree = "<group>"; };
+		CD8587AF1E22ADC300FB74BF /* LLBusinessTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBusinessTypeView.m; sourceTree = "<group>"; };
 		CDC8810D1E210281001ADA51 /* AliPay_商品分类Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AliPay_商品分类Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC881111E210281001ADA51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDC881161E210281001ADA51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 			children = (
 				CDC881631E211E85001ADA51 /* LLBussnissTypeCell.h */,
 				CDC881641E211E85001ADA51 /* LLBussnissTypeCell.m */,
+				CD8587AE1E22ADC300FB74BF /* LLBusinessTypeView.h */,
+				CD8587AF1E22ADC300FB74BF /* LLBusinessTypeView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 				CDC881621E211870001ADA51 /* LLBusinessType.m in Sources */,
 				CDC881571E21041A001ADA51 /* MASViewConstraint.m in Sources */,
 				CDC881521E21041A001ADA51 /* MASCompositeConstraint.m in Sources */,
+				CD8587B01E22ADC300FB74BF /* LLBusinessTypeView.m in Sources */,
 				CDC881581E21041A001ADA51 /* NSArray+MASAdditions.m in Sources */,
 				CDC881181E210281001ADA51 /* ViewController.m in Sources */,
 				CDC8815F1E21112A001ADA51 /* LLBusinessTypeFlowLayout.m in Sources */,
@@ -485,6 +491,7 @@
 				CDC881261E210281001ADA51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
