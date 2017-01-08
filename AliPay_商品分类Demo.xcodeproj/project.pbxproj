@@ -26,6 +26,9 @@
 		CDC8815A1E21041A001ADA51 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC881481E21041A001ADA51 /* View+MASAdditions.m */; };
 		CDC8815B1E21041A001ADA51 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC8814B1E21041A001ADA51 /* ViewController+MASAdditions.m */; };
 		CDC8815C1E21041A001ADA51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC8814E1E21041A001ADA51 /* AppDelegate.m */; };
+		CDC8815F1E21112A001ADA51 /* LLBusinessTypeFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC8815E1E21112A001ADA51 /* LLBusinessTypeFlowLayout.m */; };
+		CDC881621E211870001ADA51 /* LLBusinessType.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC881611E211870001ADA51 /* LLBusinessType.m */; };
+		CDC881651E211E85001ADA51 /* LLBussnissTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC881641E211E85001ADA51 /* LLBussnissTypeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +71,12 @@
 		CDC8814B1E21041A001ADA51 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		CDC8814D1E21041A001ADA51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDC8814E1E21041A001ADA51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDC8815D1E21112A001ADA51 /* LLBusinessTypeFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBusinessTypeFlowLayout.h; sourceTree = "<group>"; };
+		CDC8815E1E21112A001ADA51 /* LLBusinessTypeFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBusinessTypeFlowLayout.m; sourceTree = "<group>"; };
+		CDC881601E211870001ADA51 /* LLBusinessType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBusinessType.h; sourceTree = "<group>"; };
+		CDC881611E211870001ADA51 /* LLBusinessType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBusinessType.m; sourceTree = "<group>"; };
+		CDC881631E211E85001ADA51 /* LLBussnissTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBussnissTypeCell.h; sourceTree = "<group>"; };
+		CDC881641E211E85001ADA51 /* LLBussnissTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBussnissTypeCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,9 +135,9 @@
 		CDC881271E21041A001ADA51 /* AliPay_BusinessType */ = {
 			isa = PBXGroup;
 			children = (
+				CDC8812A1E21041A001ADA51 /* Other */,
 				CDC881281E21041A001ADA51 /* Controller */,
 				CDC881291E21041A001ADA51 /* Model */,
-				CDC8812A1E21041A001ADA51 /* Other */,
 				CDC8812C1E21041A001ADA51 /* View */,
 			);
 			path = AliPay_BusinessType;
@@ -144,6 +153,8 @@
 		CDC881291E21041A001ADA51 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CDC881601E211870001ADA51 /* LLBusinessType.h */,
+				CDC881611E211870001ADA51 /* LLBusinessType.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				CDC8812B1E21041A001ADA51 /* businessType.plist */,
+				CDC8815D1E21112A001ADA51 /* LLBusinessTypeFlowLayout.h */,
+				CDC8815E1E21112A001ADA51 /* LLBusinessTypeFlowLayout.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -159,6 +172,8 @@
 		CDC8812C1E21041A001ADA51 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CDC881631E211E85001ADA51 /* LLBussnissTypeCell.h */,
+				CDC881641E211E85001ADA51 /* LLBussnissTypeCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -248,6 +263,7 @@
 		CDC881051E210281001ADA51 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LL;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = LockLight;
 				TargetAttributes = {
@@ -297,10 +313,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDC881591E21041A001ADA51 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				CDC881621E211870001ADA51 /* LLBusinessType.m in Sources */,
 				CDC881571E21041A001ADA51 /* MASViewConstraint.m in Sources */,
 				CDC881521E21041A001ADA51 /* MASCompositeConstraint.m in Sources */,
 				CDC881581E21041A001ADA51 /* NSArray+MASAdditions.m in Sources */,
 				CDC881181E210281001ADA51 /* ViewController.m in Sources */,
+				CDC8815F1E21112A001ADA51 /* LLBusinessTypeFlowLayout.m in Sources */,
 				CDC881121E210281001ADA51 /* main.m in Sources */,
 				CDC8815C1E21041A001ADA51 /* AppDelegate.m in Sources */,
 				CDC881551E21041A001ADA51 /* MASLayoutConstraint.m in Sources */,
@@ -308,6 +326,7 @@
 				CDC8815B1E21041A001ADA51 /* ViewController+MASAdditions.m in Sources */,
 				CDC8815A1E21041A001ADA51 /* View+MASAdditions.m in Sources */,
 				CDC881561E21041A001ADA51 /* MASViewAttribute.m in Sources */,
+				CDC881651E211E85001ADA51 /* LLBussnissTypeCell.m in Sources */,
 				CDC881531E21041A001ADA51 /* MASConstraint.m in Sources */,
 				CDC881541E21041A001ADA51 /* MASConstraintMaker.m in Sources */,
 			);
